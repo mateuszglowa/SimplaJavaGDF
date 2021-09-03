@@ -54,7 +54,7 @@ public class Game extends JPanel implements Runnable {
             repaint();
 
             try {
-                Thread.sleep(14); //With asumpton that one run takes 2-3 miliseconds ( to get 60FPS we need 17 miliseconds) 
+                Thread.sleep(14); //With asumpton that one run takes 2-3 miliseconds ( to get 60FPS we need 17 miliseconds)
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -70,5 +70,19 @@ public class Game extends JPanel implements Runnable {
         }
         Graphics g = gameImage.getGraphics();
         g.clearRect(0, 0, gameWidth, gameHeight);
+    }
+
+    public void exit(){
+        running = false;
+    }
+
+
+    @Override
+    protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
+        if(gameImage == null){
+            return;
+        }
+        g.drawImage(gameImage, 0 ,0, null);
     }
 }
