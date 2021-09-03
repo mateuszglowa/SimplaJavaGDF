@@ -1,5 +1,7 @@
 package com.mglo.game.state;
 
+import com.mglo.game.main.GameMain;
+
 import java.awt.Graphics;
 
 import java.awt.event.KeyEvent;
@@ -18,4 +20,8 @@ public abstract class State {
     public abstract void onKeyPress(KeyEvent e);
 
     public abstract void onKeyRelease(KeyEvent e);
+
+    public void setCurrentState(State newState){
+        GameMain.sGame.setCurrentState(newState);
+    }
 }
