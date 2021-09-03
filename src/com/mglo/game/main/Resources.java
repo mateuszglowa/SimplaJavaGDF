@@ -10,11 +10,14 @@ import java.net.URL;
 
 public class Resources {
 
+    public static BufferedImage welcome, iconimage;
+
     public static void load(){
-        //TODO
+        welcome = loadImage("welcome.png");
+        iconimage = loadImage("iconimage.png");
     }
 
-    public static AudioClip loadSoud(String fileName){
+    public static AudioClip loadSound(String fileName){
         URL fileURL = Resources.class.getResource("/resources/" + fileName);
         return Applet.newAudioClip(fileURL);
     }
