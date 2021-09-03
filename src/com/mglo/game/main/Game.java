@@ -8,7 +8,7 @@ import java.awt.*;
 
 @SuppressWarnings("serial")
 
-public class Game extends JPanel {
+public class Game extends JPanel implements Runnable {
     private int gameWidth;
     private int gameHeight;
     private Image gameImage;
@@ -33,8 +33,20 @@ public class Game extends JPanel {
     }
 
     @Override
-    public void addNotify() {
+    public void addNotify() { //methon which is invoked when Jframe open JPanel - good starting point for application
         super.addNotify();
         setCurrentState(new LoadState());
+        initGame();
+    }
+
+    private void initGame(){
+        running = true;
+        gameThread = new Thread(this, "Game Thread");
+        gameThread.start();
+    }
+
+    @Override
+    public void run() {
+        
     }
 }
