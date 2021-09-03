@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d631a039-d43c-4d7f-9379-be89858e05d9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/mglo/game/main/Resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mglo/game/main/Resources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mglo/game/state/State.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Resources.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Resources.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mglo/game/main/Resources.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
@@ -44,6 +44,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="State.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mglo/game/state/State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -66,6 +75,7 @@
         <option value="$PROJECT_DIR$/src/com/mglo/game/main/Game.java" />
         <option value="$PROJECT_DIR$/src/com/mglo/game/main/GameMain.java" />
         <option value="$PROJECT_DIR$/src/com/mglo/game/main/Resources.java" />
+        <option value="$PROJECT_DIR$/src/com/mglo/game/state/State.java" />
       </list>
     </option>
   </component>
@@ -142,6 +152,15 @@
               <item name="mglo" type="462c0819:PsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleJavaGDF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleJavaGDF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mglo" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SimpleJavaGDF" type="b2602c69:ProjectViewProjectNode" />
@@ -283,6 +302,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mglo/game/state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
