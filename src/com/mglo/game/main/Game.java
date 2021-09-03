@@ -47,6 +47,28 @@ public class Game extends JPanel implements Runnable {
 
     @Override
     public void run() {
-        
+        while(running) {
+            currentState.update();
+            prepareGameImage();
+            currentState.render(gameImage.getGraphics());
+            repaint();
+
+            try {
+                Thread.sleep(14); //With asumpton that one run takes 2-3 miliseconds ( to get 60FPS we need 17 miliseconds) 
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+        }
+        //exit game immediately when running is false
+        System.exit(0);
+    }
+
+    private void prepareGameImage(){
+        if (gameImage == null){
+            gameImage = createImage(gameWidth, gameHeight);
+        }
+        Graphics g = gameImage.getGraphics();
+        g.clearRect(0, 0, gameWidth, gameHeight);
     }
 }
