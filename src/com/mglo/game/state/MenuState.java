@@ -25,16 +25,18 @@ public class MenuState extends State {
 
     @Override
     public void onClick(MouseEvent e) {
-        //TODO
+        System.out.println("OnClick");
     }
 
     @Override
     public void onKeyPress(KeyEvent e) {
         //Intentionally ignored
+        System.out.println("OnKeyPress");
     }
 
     @Override
     public void onKeyRelease(KeyEvent e) {
         //Intentionally ignored
+        System.out.println("OnKeyRelease");
     }
 }

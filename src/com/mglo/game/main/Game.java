@@ -1,5 +1,6 @@
 package com.mglo.game.main;
 
+import com.mglo.framework.util.InputHandler;
 import com.mglo.game.state.LoadState;
 import com.mglo.game.state.State;
 
@@ -17,6 +18,8 @@ public class Game extends JPanel implements Runnable {
     private volatile boolean running;
     private volatile State currentState;
 
+    private InputHandler inputHandler;
+
     public Game(int gameWidth, int gameHeight){
         this.gameWidth = gameWidth;
         this.gameHeight = gameHeight;
@@ -30,13 +33,21 @@ public class Game extends JPanel implements Runnable {
         System.gc();
         newState.init();
         currentState = newState;
+        inputHandler.setCurrentState(currentState);
     }
 
     @Override
     public void addNotify() { //methon which is invoked when Jframe open JPanel - good starting point for application
         super.addNotify();
+        initInput();
         setCurrentState(new LoadState());
         initGame();
+    }
+
+    private void initInput(){
+        inputHandler = new InputHandler();
+        addKeyListener(inputHandler);
+        addMouseListener(inputHandler);
     }
 
     private void initGame(){
@@ -75,7 +86,6 @@ public class Game extends JPanel implements Runnable {
     public void exit(){
         running = false;
     }
-
 
     @Override
     protected void paintComponent(Graphics g) {
