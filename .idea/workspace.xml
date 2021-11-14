@@ -21,7 +21,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RandomNumberGenerator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RandomNumberGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mglo/framework/util/RandomNumberGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -29,6 +29,21 @@
               <folding>
                 <element signature="e#353#354#0" expanded="true" />
                 <element signature="e#389#390#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Frame.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mglo/animation/Frame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/com/mglo/game/state/MenuState.java" />
         <option value="$PROJECT_DIR$/src/com/mglo/game/main/Game.java" />
         <option value="$PROJECT_DIR$/src/com/mglo/framework/util/RandomNumberGenerator.java" />
+        <option value="$PROJECT_DIR$/src/com/mglo/animation/Frame.java" />
       </list>
     </option>
   </component>
@@ -181,42 +197,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mglo" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleJavaGDF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleJavaGDF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mglo" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleJavaGDF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleJavaGDF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mglo" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleJavaGDF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleJavaGDF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mglo" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleJavaGDF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleJavaGDF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mglo" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="state" type="462c0819:PsiDirectoryNode" />
+              <item name="animation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SimpleJavaGDF" type="b2602c69:ProjectViewProjectNode" />
@@ -346,13 +327,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="adding GameMain as Main init class and removing Main.java (dummy class)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mglo/game/main/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mglo/framework/util/InputHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -881,6 +855,19 @@
           <folding>
             <element signature="e#353#354#0" expanded="true" />
             <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mglo/animation/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
           </folding>
         </state>
       </provider>
