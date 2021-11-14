@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d631a039-d43c-4d7f-9379-be89858e05d9" name="Default" comment="adding GameMain as Main init class and removing Main.java (dummy class)" />
+    <list default="true" id="d631a039-d43c-4d7f-9379-be89858e05d9" name="Default" comment="adding GameMain as Main init class and removing Main.java (dummy class)">
+      <change beforePath="$PROJECT_DIR$/src/com/mglo/game/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mglo/game/main/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mglo/game/state/MenuState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mglo/game/state/MenuState.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mglo/game/main/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+            <state relative-caret-position="196">
+              <caret line="68" column="41" lean-forward="true" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -52,8 +55,8 @@
       <file leaf-file-name="MenuState.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mglo/game/state/MenuState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="221">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#590#591#0" expanded="true" />
@@ -84,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoadState.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoadState.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mglo/game/state/LoadState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="92">
+              <caret line="16" selection-start-line="16" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#452#453#0" expanded="true" />
@@ -116,10 +119,10 @@
         <option value="$PROJECT_DIR$/src/com/mglo/game/main/GameMain.java" />
         <option value="$PROJECT_DIR$/src/com/mglo/game/main/Resources.java" />
         <option value="$PROJECT_DIR$/src/com/mglo/framework/util/InputHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/mglo/game/state/MenuState.java" />
-        <option value="$PROJECT_DIR$/src/com/mglo/game/main/Game.java" />
         <option value="$PROJECT_DIR$/src/com/mglo/game/state/State.java" />
         <option value="$PROJECT_DIR$/src/com/mglo/game/state/LoadState.java" />
+        <option value="$PROJECT_DIR$/src/com/mglo/game/state/MenuState.java" />
+        <option value="$PROJECT_DIR$/src/com/mglo/game/main/Game.java" />
       </list>
     </option>
   </component>
@@ -831,25 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mglo/game/state/MenuState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mglo/game/main/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mglo/game/state/State.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -862,13 +846,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mglo/game/state/LoadState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="92">
+          <caret line="16" selection-start-line="16" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#452#453#0" expanded="true" />
             <element signature="e#524#525#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mglo/game/state/MenuState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mglo/game/main/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="68" column="41" lean-forward="true" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
         </state>
       </provider>
     </entry>

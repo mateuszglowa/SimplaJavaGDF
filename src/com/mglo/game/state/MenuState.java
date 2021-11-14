@@ -14,7 +14,12 @@ public class MenuState extends State {
 
     @Override
     public void update() {
-        //Do nothing
+        //do nothing
+    }
+
+    @Override
+    public void update (float delta) {
+
     }
 
     @Override

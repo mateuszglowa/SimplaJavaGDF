@@ -66,7 +66,7 @@ public class Game extends JPanel implements Runnable {
             long beforeUpdateRender = System.nanoTime();
             long deltaMillis = updateDurationMillis + sleepDurationMillis;
 
-            updateAndRender();
+            updateAndRender(deltaMillis);
 
             updateDurationMillis = (System.nanoTime() - beforeUpdateRender) / 1000000L;
             sleepDurationMillis = Math.max(2, 17 - updateDurationMillis);
