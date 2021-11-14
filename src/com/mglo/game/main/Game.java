@@ -63,13 +63,18 @@ public class Game extends JPanel implements Runnable {
         long sleepDurationMillis = 0;
 
         while(running) {
+            long beforeUpdateRender = System.nanoTime();
+
             currentState.update();
             prepareGameImage();
             currentState.render(gameImage.getGraphics());
             repaint();
 
+            updateDurationMillis = (System.nanoTime() - beforeUpdateRender) / 1000000L;
+            sleepDurationMillis = Math.max(2, 17 - updateDurationMillis);
+
             try {
-                Thread.sleep(14); //With asumpton that one run takes 2-3 miliseconds ( to get 60FPS we need 17 miliseconds)
+                Thread.sleep(sleepDurationMillis); //Dynamic time counting to get 60FPS we need 17 miliseconds)
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
