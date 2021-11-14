@@ -58,6 +58,10 @@ public class Game extends JPanel implements Runnable {
 
     @Override
     public void run() {
+        //These variables should sum up to 17 on every iteration
+        long updateDurationMillis = 0;
+        long sleepDurationMillis = 0;
+
         while(running) {
             currentState.update();
             prepareGameImage();
