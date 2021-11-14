@@ -16,6 +16,10 @@ public class LoadState extends State {
 
     @Override
     public void update() {
+    }
+
+    @Override
+    public void update (float delta) {
         setCurrentState(new MenuState()); //This is the new line!
     }
 
