@@ -64,11 +64,9 @@ public class Game extends JPanel implements Runnable {
 
         while(running) {
             long beforeUpdateRender = System.nanoTime();
+            long deltaMillis = updateDurationMillis + sleepDurationMillis;
 
-            currentState.update();
-            prepareGameImage();
-            currentState.render(gameImage.getGraphics());
-            repaint();
+            updateAndRender();
 
             updateDurationMillis = (System.nanoTime() - beforeUpdateRender) / 1000000L;
             sleepDurationMillis = Math.max(2, 17 - updateDurationMillis);
@@ -82,6 +80,13 @@ public class Game extends JPanel implements Runnable {
         }
         //exit game immediately when running is false
         System.exit(0);
+    }
+
+    private void updateAndRender() {
+        currentState.update();
+        prepareGameImage();
+        currentState.render(gameImage.getGraphics());
+        repaint();
     }
 
     private void prepareGameImage(){
