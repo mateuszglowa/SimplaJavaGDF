@@ -37,7 +37,7 @@ public class Game extends JPanel implements Runnable {
     }
 
     @Override
-    public void addNotify() { //methon which is invoked when Jframe open JPanel - good starting point for application
+    public void addNotify() { //method which is invoked when Jframe open JPanel - good starting point for application
         super.addNotify();
         initInput();
         setCurrentState(new LoadState());

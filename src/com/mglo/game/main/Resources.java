@@ -3,7 +3,7 @@ package com.mglo.game.main;
 import com.mglo.animation.Animation;
 import com.mglo.animation.Frame;
 
-import javax.annotation.Resource;
+
 import javax.imageio.ImageIO;
 import java.applet.Applet;
 import java.applet.AudioClip;
@@ -48,16 +48,16 @@ public class Resources {
     }
 
     public static AudioClip loadSound(String fileName){
-        URL fileURL = Resources.class.getResource("/resources/" + fileName);
+        URL fileURL = Resources.class.getResource("/resources/sounds/" + fileName);
         return Applet.newAudioClip(fileURL);
     }
 
     public static BufferedImage loadImage(String fileName){
         BufferedImage img = null;
         try {
-            img = ImageIO.read(Resource.class.getResourceAsStream("/resources/" + fileName));
+            img = ImageIO.read(Resources.class.getResource("/resources/images/" + fileName));
         } catch (IOException e) {
-            System.out.println("Error while reading: /resources/" + fileName);
+            System.out.println("Error while reading: resources/" + fileName);
             e.printStackTrace();
         }
         return img;

@@ -2,7 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d631a039-d43c-4d7f-9379-be89858e05d9" name="Default" comment="adding GameMain as Main init class and removing Main.java (dummy class)">
-      <change beforePath="$PROJECT_DIR$/src/com/mglo/game/state/PlayState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mglo/game/state/PlayState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleJavaGDF/com/mglo/game/main/GameMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleJavaGDF/com/mglo/game/main/GameMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleJavaGDF/com/mglo/game/main/Resources.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleJavaGDF/com/mglo/game/main/Resources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleJavaGDF/com/mglo/game/state/MenuState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleJavaGDF/com/mglo/game/state/MenuState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleJavaGDF/resources/run_anim1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleJavaGDF/resources/run_anim2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleJavaGDF/resources/run_anim3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleJavaGDF/resources/run_anim4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleJavaGDF/resources/run_anim5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleJavaGDF/resources/selector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mglo/game/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mglo/game/main/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mglo/game/main/GameMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mglo/game/main/GameMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mglo/game/main/Resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mglo/game/main/Resources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/block.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/cloud1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/cloud1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/cloud2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/cloud2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/duck.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/duck.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/grass.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/grass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/hit.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/sounds/hit.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/iconimage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/iconimage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/jump.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/jump.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/onjump.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/sounds/onjump.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/run_anim1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/run_anim1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/run_anim2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/run_anim2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/run_anim3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/run_anim3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/run_anim4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/run_anim4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/run_anim5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/run_anim5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/selector.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/selector.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/welcome.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/welcome.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +45,11 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mglo/game/main/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+            <state relative-caret-position="206">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,20 +98,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mglo/game/main/GameMain.java">
+      <file leaf-file-name="LoadState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mglo/game/state/LoadState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Resources.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Resources.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mglo/game/main/Resources.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            <state relative-caret-position="340">
+              <caret line="50" column="69" selection-start-line="50" selection-start-column="69" selection-end-line="50" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,11 +148,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayState.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayState.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mglo/game/state/PlayState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
+            <state relative-caret-position="51">
+              <caret line="93" column="29" lean-forward="true" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,11 +175,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mglo/game/main/GameMain.java" />
         <option value="$PROJECT_DIR$/src/com/mglo/framework/util/InputHandler.java" />
         <option value="$PROJECT_DIR$/src/com/mglo/game/state/State.java" />
         <option value="$PROJECT_DIR$/src/com/mglo/game/state/LoadState.java" />
-        <option value="$PROJECT_DIR$/src/com/mglo/game/main/Game.java" />
         <option value="$PROJECT_DIR$/src/com/mglo/framework/util/RandomNumberGenerator.java" />
         <option value="$PROJECT_DIR$/src/com/mglo/animation/Frame.java" />
         <option value="$PROJECT_DIR$/src/com/mglo/animation/Animation.java" />
@@ -154,8 +186,10 @@
         <option value="$PROJECT_DIR$/src/com/mglo/game/model/Block.java" />
         <option value="$PROJECT_DIR$/src/com/mglo/game/state/MenuState.java" />
         <option value="$PROJECT_DIR$/src/com/mglo/game/state/GameOverState.java" />
-        <option value="$PROJECT_DIR$/src/com/mglo/game/main/Resources.java" />
         <option value="$PROJECT_DIR$/src/com/mglo/game/state/PlayState.java" />
+        <option value="$PROJECT_DIR$/src/com/mglo/game/main/GameMain.java" />
+        <option value="$PROJECT_DIR$/src/com/mglo/game/main/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/mglo/game/main/Resources.java" />
       </list>
     </option>
   </component>
@@ -213,67 +247,14 @@
               <item name="SimpleJavaGDF" type="b2602c69:ProjectViewProjectNode" />
               <item name="SimpleJavaGDF" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mglo" type="462c0819:PsiDirectoryNode" />
-              <item name="animation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleJavaGDF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleJavaGDF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mglo" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleJavaGDF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleJavaGDF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mglo" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleJavaGDF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleJavaGDF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mglo" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleJavaGDF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleJavaGDF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mglo" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleJavaGDF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleJavaGDF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mglo" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleJavaGDF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleJavaGDF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mglo" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="state" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SimpleJavaGDF" type="b2602c69:ProjectViewProjectNode" />
               <item name="SimpleJavaGDF" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,6 +274,8 @@
       <recent name="C:\Users\M\Workspace\conference-d\SimpleJavaGDF\src\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\M\Workspace\conference-d\SimpleJavaGDF\src\resources\sounds" />
+      <recent name="C:\Users\M\Workspace\conference-d\SimpleJavaGDF\src\resources\images" />
       <recent name="C:\Users\M\Workspace\conference-d\SimpleJavaGDF\src\resources" />
     </key>
   </component>
@@ -390,17 +373,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="adding GameMain as Main init class and removing Main.java (dummy class)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mglo/game/state/MenuState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mglo/game/main/Resources.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -724,13 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mglo/game/main/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mglo/framework/util/RandomNumberGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -805,10 +770,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mglo/game/state/GameOverState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mglo/game/state/MenuState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mglo/game/state/PlayState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="93" column="29" lean-forward="true" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/javax/imageio/ImageIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="1347" selection-start-line="1347" selection-end-line="1347" />
+        <state relative-caret-position="223">
+          <caret line="1348" column="9" lean-forward="true" selection-start-line="1348" selection-start-column="9" selection-end-line="1348" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/awt/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="482" column="36" lean-forward="true" selection-start-line="482" selection-start-column="36" selection-end-line="482" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -832,27 +836,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mglo/game/main/GameMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="272">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mglo/game/state/GameOverState.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mglo/game/main/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mglo/game/state/MenuState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="206">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -861,8 +853,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mglo/game/state/LoadState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -871,18 +863,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mglo/game/main/Resources.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mglo/game/state/PlayState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
+        <state relative-caret-position="340">
+          <caret line="50" column="69" selection-start-line="50" selection-start-column="69" selection-end-line="50" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
