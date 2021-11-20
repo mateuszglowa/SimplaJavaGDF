@@ -19,8 +19,7 @@ public class Cloud {
              y = RandomNumberGenerator.getRandIntBetween(20, 100);
          }
      }
-
-
+     
      public float getX(){
          return x;
      }
