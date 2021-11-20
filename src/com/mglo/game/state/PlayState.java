@@ -34,7 +34,7 @@ public class PlayState extends State {
 
         blocks = new ArrayList<Block>();
         cloud = new Cloud(100, 100);
-        cloud = new Cloud(500, 50);
+        cloud2 = new Cloud(500, 50);
         scoreFont = new Font("SansSerif", Font.BOLD, 25);
 
         for (int i =0;i < 5; i++){

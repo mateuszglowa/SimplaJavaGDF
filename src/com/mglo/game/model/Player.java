@@ -25,6 +25,7 @@ public class Player {
 
         ground = new Rectangle(0, 405, 900, 45);
         rect = new Rectangle();
+        duckRect = new Rectangle();
         isAlive = true;
         isDucked = false;
         updateRects();
@@ -52,8 +53,8 @@ public class Player {
     }
 
     private void updateRects() {
-        rect.setBounds((int)x + 10,(int) y, width - 20, height); //should have an error
-        duckRect.setBounds((int)x, (int)y + 20, width, height -20); //should have an error
+        rect.setBounds((int)x + 10,(int) y, width - 20, height);
+        duckRect.setBounds((int)x, (int)y + 20, width, height -20);
     }
 
     public void jump(){

@@ -29,14 +29,14 @@ public class Resources {
         duck = loadImage("duck.png");
         grass = loadImage("grass.png");
         jump = loadImage("jump.png");
-        run1 = loadImage("run1.png");
-        run2 = loadImage("run2.png");
-        run3 = loadImage("run3.png");
-        run4 = loadImage("run4.png");
-        run5 = loadImage("run5.png");
+        run1 = loadImage("run_anim1.png");
+        run2 = loadImage("run_anim2.png");
+        run3 = loadImage("run_anim3.png");
+        run4 = loadImage("run_anim4.png");
+        run5 = loadImage("run_anim5.png");
         selector = loadImage("selector.png");
         hit = loadSound("hit.wav");
-        onJump = loadSound("oonjump.wav");
+        onJump = loadSound("onjump.wav");
         skyBlue = new Color(208, 244,247);
 
         Frame f1 = new Frame(run1, .1f);
@@ -48,14 +48,14 @@ public class Resources {
     }
 
     public static AudioClip loadSound(String fileName){
-        URL fileURL = Resources.class.getResource("/resources/sounds/" + fileName);
+        URL fileURL = Resources.class.getResource("/resources/" + fileName);
         return Applet.newAudioClip(fileURL);
     }
 
     public static BufferedImage loadImage(String fileName){
         BufferedImage img = null;
         try {
-            img = ImageIO.read(Resources.class.getResource("/resources/images/" + fileName));
+            img = ImageIO.read(Resources.class.getResource("/resources/" + fileName));
         } catch (IOException e) {
             System.out.println("Error while reading: resources/" + fileName);
             e.printStackTrace();
