@@ -11,7 +11,7 @@ public class GameOverState extends State {
     private String playerScore;
     private Font font;
 
-    public GameOverState(String playerScore) {
+    public GameOverState(int playerScore) {
         this.playerScore = playerScore + "";
         font = new Font("SansSerif", Font.BOLD,50);
     }
