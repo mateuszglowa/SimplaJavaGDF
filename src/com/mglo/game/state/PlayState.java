@@ -66,9 +66,29 @@ public class PlayState extends State {
     }
 
     @Override
-    public void render(Graphics G) {
-
+    public void render(Graphics g) {
+        g.setColor(Resources.skyBlue);
+        g.fillRect(0,0,GameMain.GAME_WIDTH, GameMain.GAME_HEIGHT);
+        renderPlayer(g);
+        renderBlocks(g);
+        renderSun(g);
+        renderClouds(g);
+        g.drawImage(Resources.grass, 0, 405, null);
+        renderScore(g);
     }
+
+    private void renderPlayer(Graphics g) {
+        if(player.isGrounded()){
+            if(player.isDucked()){
+                g.drawImage(Resources.duck, (int) player.getX(), (int) player.getY(), null);
+            } else {
+                Resources.runAnim.render(g, (int) player.getX(), (int)player.getY(),
+                player.getWidth(), player.getHeight());
+            }
+        }else{
+            g.drawImage(Resources.jump, (int) player.getX(), (int) player.getY(), player.getWidth(), player.getHeight(), null);
+        }
+    }   
 
     @Override
     public void onClick(MouseEvent e) {
