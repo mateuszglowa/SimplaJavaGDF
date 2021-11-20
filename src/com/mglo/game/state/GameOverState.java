@@ -49,7 +49,7 @@ public class GameOverState extends State {
 
     @Override
     public void onKeyPress(KeyEvent e) {
-
+        setCurrentState(new MenuState());
     }
 
     @Override
