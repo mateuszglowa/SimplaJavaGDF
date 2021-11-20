@@ -88,7 +88,34 @@ public class PlayState extends State {
         }else{
             g.drawImage(Resources.jump, (int) player.getX(), (int) player.getY(), player.getWidth(), player.getHeight(), null);
         }
-    }   
+    }
+
+    private void renderScore(Graphics g){
+        g.setFont(scoreFont);
+        g.setColor(Color.GRAY);
+        g.drawString(""+playerScore / 100, 20,30);
+    }
+
+    private void renderBlocks(Graphics g){
+        for (Block b : blocks){
+            if (b.isVisible()){
+                g.drawImage(Resources.block, (int) b.getX(), (int) b.getY(), BLOCK_WIDTH, BLOCK_HEIGHT, null);
+            }
+        }
+    }
+
+    private void renderSun(Graphics g){
+        g.setColor(Color.ORANGE);
+        g.fillOval(715, -85, 170,170);
+        g.setColor(Color.yellow);
+        g.fillOval(725,-75,150,150);
+    }
+
+    private void renderClouds(Graphics g){
+        g.drawImage(Resources.cloud1, (int) cloud.getX(), (int) cloud.getY(), 100, 60, null);
+        g.drawImage(Resources.cloud2, (int) cloud2.getX(), (int) cloud2.getY(), 100, 60, null);
+    }
+
 
     @Override
     public void onClick(MouseEvent e) {
