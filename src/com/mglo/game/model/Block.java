@@ -10,7 +10,7 @@ public class Block {
     private Rectangle rect;
     private boolean visible;
 
-    private static final int UPPER_Y = 257;
+    private static final int UPPER_Y = 275;
     private static final int LOWER_Y = 355;
 
     public Block(float x, float y, int width, int height) {

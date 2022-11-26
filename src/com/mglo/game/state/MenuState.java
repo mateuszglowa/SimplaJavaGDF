@@ -33,9 +33,9 @@ public class MenuState extends State {
         //Draws Resources.welcome to the screen at x = 0, y = 0
         g.drawImage(Resources.welcome, 0, 0, null);
         if(currentSelection == 0){
-            g.drawImage(Resources.selector, 355,241,null);
+            g.drawImage(Resources.selector, 345,241,null);
         } else {
-            g.drawImage(Resources.selector, 355,291,null);
+            g.drawImage(Resources.selector, 345,291,null);
         }
     }
 
