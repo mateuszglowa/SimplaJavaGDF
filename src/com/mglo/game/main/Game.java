@@ -37,7 +37,7 @@ public class Game extends JPanel implements Runnable {
     }
 
     @Override
-    public void addNotify() { //methon which is invoked when Jframe open JPanel - good starting point for application
+    public void addNotify() { //method which is invoked when Jframe open JPanel - good starting point for application
         super.addNotify();
         initInput();
         setCurrentState(new LoadState());
@@ -58,14 +58,21 @@ public class Game extends JPanel implements Runnable {
 
     @Override
     public void run() {
+        //These variables should sum up to 17 on every iteration
+        long updateDurationMillis = 0;
+        long sleepDurationMillis = 0;
+
         while(running) {
-            currentState.update();
-            prepareGameImage();
-            currentState.render(gameImage.getGraphics());
-            repaint();
+            long beforeUpdateRender = System.nanoTime();
+            long deltaMillis = updateDurationMillis + sleepDurationMillis;
+
+            updateAndRender(deltaMillis);
+
+            updateDurationMillis = (System.nanoTime() - beforeUpdateRender) / 1000000L;
+            sleepDurationMillis = Math.max(2, 17 - updateDurationMillis);
 
             try {
-                Thread.sleep(14); //With asumpton that one run takes 2-3 miliseconds ( to get 60FPS we need 17 miliseconds)
+                Thread.sleep(sleepDurationMillis); //Dynamic time counting to get 60FPS we need 17 miliseconds)
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -73,6 +80,21 @@ public class Game extends JPanel implements Runnable {
         }
         //exit game immediately when running is false
         System.exit(0);
+    }
+
+    private void updateAndRender(long deltaMillis) {
+        currentState.update(deltaMillis / 1000f);
+        prepareGameImage();
+        currentState.render(gameImage.getGraphics());
+        repaint();
+        renderGameImage(getGraphics());
+    }
+
+    private void renderGameImage(Graphics g){
+        if (gameImage != null){
+            g.drawImage(gameImage, 0, 0, null);
+        }
+        g.dispose();
     }
 
     private void prepareGameImage(){
