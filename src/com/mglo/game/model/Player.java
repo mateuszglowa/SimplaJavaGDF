@@ -7,15 +7,16 @@ import java.awt.*;
 
 public class Player {
     private float x,y;
-    private int width, height, velY;
+    private int width, height;
+    private float velY;
     private Rectangle rect, duckRect, ground;
 
     private boolean isAlive;
     private boolean isDucked;
     private float duckDuration = .6f;
 
-    private static final int JUMP_VELOCITY = -600;
-    private static final int ACCEL_GRAVITY = 1800;
+    private static final float JUMP_VELOCITY = -600f;
+    private static final float ACCEL_GRAVITY = 1800f;
 
     public Player(float x, float y, int width, int height) {
         this.x = x;
@@ -104,7 +105,7 @@ public class Player {
     }
 
     public int getVelY() {
-        return velY;
+        return (int) velY;
     }
 
     public Rectangle getRect() {
